@@ -1,0 +1,52 @@
+.listaOrdenada {
+    background-color: aqua;
+    border-radius: 10px;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.listaDesordenada {
+    background-color: rgb(21, 209, 74);
+    border-radius: 10px;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.well {
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.well {
+    background-color: blue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.responsive-map {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden; /* Agrega esta línea para ocultar cualquier desbordamiento */
+}
+
+.responsive-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+    .responsive-map {
+        padding-bottom: 75%;
+    }
+}

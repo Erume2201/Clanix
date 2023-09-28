@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>.:Clanix:.</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='css/miestilo.css' rel="stylesheet" type="text/css">
+    <!-- Estilo -->
+    <!--   <style>
+        .listaOrdenada{
+            background-color: aqua;
+            border-radius: 10px;
+            width: 150px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .listaDesordenada{
+            background-color: rgb(21, 209, 74);
+            border-radius: 10px;
+            width: 150px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    </style>-->
+
+</head>
+
+<body>
+    <!-- titulo-->
+    <h1>Titulo H1 - CLANIX</h1>
+    <h2>Titulo h2 - CLANIX</h1>
+        <h3>Titulo h3 - CLANIX</h1>
+            <h4>Titulo h4 - CLANIX</h1>
+                <h5>Titulo h5 - CLANIX</h1>
+                    <h6>Titulo h6 - CLANIX</h1>
+
+                        <!--Parrafos-->
+                        <!--link con la etiqueta a dentro del mismo parrafo
+            -- href="https://www.google.com" target="_blank" -- 
+            sirve para abrir un enlace en una pesataña nueva-->
+                        <p>
+                            Los servicios que ofece CLANIX son muy
+                            diferentes a los servicios que da las otras empresas ven con nosotros
+                            y verás la diferencia mira <a href="https://www.google.com" target="_blank"
+                                title="visitarás google">aquí</a>
+                        </p>
+                        <!-- separador -->
+                        <hr>
+                        <!-- Salto de LINEA-->
+                        <br>
+
+                        <!-- Listas -->
+                        <h3>Lista Ordenada</h3>
+                        <!--Agrego un contener con etiqueta div
+        <div style="background-color: green; border-radius: 10px;
+        width: 150px; padding-bottom: 5px; padding-top: 5px;">-->
+                        <div class="listaOrdenada">
+                            <ol>
+                                <li>Ejemplo 1</li>
+                                <li>Ejemplo 2</li>
+                                <li>Ejemplo 3</li>
+                            </ol>
+                        </div>
+                        <hr>
+                        <h3>Lista Desordenada</h3>
+                        <div class="listaDesordenada">
+                            <ul>
+                                <li>Ejemplo 1</li>
+                                <li>Ejemplo 2</li>
+                                <li>Ejemplo 3</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <!-- Imagen a mostrar -->
+                        <div class="well">
+                            <a href="https://commons.wikimedia.org/wiki/File:Instituto_Tecnologico_Superior_de_Comalcalco.svg"
+                                target="_blank" title="ir a la imagen
+            ">
+                                <img src="image/Tecnologico.png" style="width: 250px; height: 235px;">
+                            </a>
+                        </div>
+                        <!--Envio mensaje con js-->
+                        <script type="text/javascript">
+                            alert("Bienvenido a Estetica unisex Claudia Clanix");
+                            window.location = "https://www.google.com";
+                        </script>
+
+</body>
+
+</html>
